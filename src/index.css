@@ -1,0 +1,50 @@
+/*
+  index.css は「アプリ全体」にかかる基本スタイルです。
+  App.css は「タスク帳の画面そのもの」の見た目を担当します。
+  役割を分けることで、後から読み返したときに迷いにくくなります。
+*/
+
+:root {
+  /* 色をひとつひとつ書くと後で統一感が崩れやすいので、
+     "変数" としてまとめておき、あちこちで使い回します。 */
+  --paper: #faf6ec;         /* ノートの紙の色 */
+  --paper-line: #e2d9c3;    /* ノートの罫線の色 */
+  --margin-line: #d97a6c;   /* ノートの左端の赤い線 */
+  --ink: #2b3a4a;           /* 文字の色（濃紺、インクっぽい色） */
+  --ink-soft: #6b7686;      /* 少し薄い文字色（補足テキストなど） */
+  --stamp: #3d7068;         /* 完了の判子の色（深い緑） */
+  --stamp-soft: #e4efec;    /* 判子まわりの薄い背景色 */
+  --highlight: #f2c14e;     /* アクセントカラー（黄色いマーカー風） */
+  --danger: #c94f4f;        /* 削除ボタンなど、注意を促す色 */
+
+  --radius: 10px;
+  --shadow: 0 2px 8px rgba(43, 58, 74, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo",
+    sans-serif;
+  color: var(--ink);
+  /* ノートの罫線っぽい背景を、画像を使わずCSSだけで表現しています */
+  background-color: var(--paper);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 35px,
+    var(--paper-line) 36px
+  );
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
