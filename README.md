@@ -1,7 +1,3 @@
-# 画面画像
-<img width="1265" height="712" alt="家計簿" src="https://github.com/user-attachments/assets/f62f3a32-86f8-4305-93ca-512f14e94cae" />
-
-
 # Qiita記事
 https://qiita.com/suneo46/items/e24827febb6cf98b811f
 
