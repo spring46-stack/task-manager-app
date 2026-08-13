@@ -10,7 +10,7 @@ React + Vite で作った、シンプルなタスク管理アプリです。
 手順をすべて書き出しています。上から順番にやれば動きます。
 
 - 仕様（何ができるアプリか）は [`SPEC.md`](./SPEC.md) にまとめています。
-  アプリ内の「仕様書を見る」ボタンからも、同じ内容をその場で確認できます。
+アプリ内の「仕様書を見る」ボタンからも、同じ内容をその場で確認できます。
 
 ---
 
@@ -91,10 +91,10 @@ npm run dev
 成功すると、ターミナルに以下のような表示が出ます（数字は環境によって変わることがあります）。
 
 ```
-  VITE v5.x.x  ready in 300 ms
+VITE v5.x.x ready in 300 ms
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
+➜ Local: http://localhost:5173/
+➜ Network: use --host to expose
 ```
 
 `http://localhost:5173/` の部分をコピーして、Chromeなどのブラウザのアドレスバーに貼り付けて開いてください。
@@ -172,18 +172,18 @@ npm run preview
 
 ```
 task-manager-app/
-├── README.md          … このファイル(セットアップ手順)
-├── SPEC.md            … 仕様書
-├── package.json        … 依存パッケージとコマンドの定義
-├── vite.config.js       … Viteの設定
-├── index.html           … アプリの土台となるHTML
+├── README.md … このファイル(セットアップ手順)
+├── SPEC.md … 仕様書
+├── package.json … 依存パッケージとコマンドの定義
+├── vite.config.js … Viteの設定
+├── index.html … アプリの土台となるHTML
 └── src/
-    ├── main.jsx                  … アプリの起動地点
-    ├── App.jsx                   … 状態管理と画面の組み立て
-    ├── App.css / index.css       … スタイル
-    └── components/
-        ├── TaskForm.jsx           … タスク追加フォーム
-        ├── TaskList.jsx           … タスク一覧
-        ├── TaskItem.jsx           … タスク1件分の表示
-        └── SpecModal.jsx          … 仕様書をアプリ内に表示するモーダル
+├── main.jsx … アプリの起動地点
+├── App.jsx … 状態管理と画面の組み立て
+├── App.css / index.css … スタイル
+└── components/
+├── TaskForm.jsx … タスク追加フォーム
+├── TaskList.jsx … タスク一覧
+├── TaskItem.jsx … タスク1件分の表示
+└── SpecModal.jsx … 仕様書をアプリ内に表示するモーダル
 ```
