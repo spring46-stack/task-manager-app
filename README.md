@@ -1,6 +1,3 @@
-# Qiita記事
-https://qiita.com/suneo46/items/e24827febb6cf98b811f
-
 # タスク帳
 
 React + Vite で作った、シンプルなタスク管理アプリです。
